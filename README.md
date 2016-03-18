@@ -18,13 +18,18 @@ npm i -D stdin-line-open
 ## Usage
 
 ```js
-import stdinLineOpen from "stdin-line-open"
+import createStdinLineOpen from 'stdin-line-open';
 
-const listen = stdinLineOpen({
+// create a stdin listener
+const stdinLineOpen = createStdinLineOpen({
   match: 'open',
   open: 'http://google.com'
 });
-listen(); // listen for stdin. input "open" and enter, then it'll open "http://google.com" in browser for you.
+
+// starts to listen stdin.
+// input "open" and enter on CLI, then it'll
+// open "http://google.com" in browser for you.
+stdinLineOpen();
 ```
 
 ## License
