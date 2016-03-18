@@ -1,6 +1,6 @@
 {
   "name": "stdin-line-open",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Read line from stdin and trigger open job if line is matched",
   "main": "dist/index.js",
   "files": [
