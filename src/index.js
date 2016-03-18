@@ -1,6 +1,6 @@
-import split from 'split';
-import opn from 'opn';
 import defaults from 'lodash.defaults';
+import opn from 'opn';
+import split from 'split';
 
 export default function (opt) {
   const _opt = defaults(opt, {
