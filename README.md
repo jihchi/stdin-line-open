@@ -20,23 +20,13 @@ npm i -D stdin-line-open
 ```js
 import stdinLineOpen from "stdin-line-open"
 
-stdinLineOpen() // true
+const listen = stdinLineOpen({
+  match: 'open',
+  open: 'http://google.com'
+});
+listen(); // listen for stdin. input "open" and enter, then it'll open "http://google.com" in browser for you.
 ```
 
 ## License
 
 MIT © [Archie Lee](https://github.com/jihchi/stdin-line-open)
-
-[npm-url]: https://npmjs.org/package/stdin-line-open
-[npm-image]: https://img.shields.io/npm/v/stdin-line-open.svg?style=flat-square
-
-[travis-url]: https://travis-ci.org/jihchi/stdin-line-open
-[travis-image]: https://img.shields.io/travis/jihchi/stdin-line-open.svg?style=flat-square
-
-[coveralls-url]: https://coveralls.io/r/jihchi/stdin-line-open
-[coveralls-image]: https://img.shields.io/coveralls/jihchi/stdin-line-open.svg?style=flat-square
-
-[depstat-url]: https://david-dm.org/jihchi/stdin-line-open
-[depstat-image]: https://david-dm.org/jihchi/stdin-line-open.svg?style=flat-square
-
-[download-badge]: http://img.shields.io/npm/dm/stdin-line-open.svg?style=flat-square
