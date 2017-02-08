@@ -1,5 +1,7 @@
 # stdin-line-open
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/jihchi/stdin-line-open.svg)](https://greenkeeper.io/)
+
 [![npm](https://img.shields.io/npm/v/stdin-line-open.svg)](https://www.npmjs.com/package/stdin-line-open)
 [![Build Status](https://travis-ci.org/jihchi/stdin-line-open.svg?branch=master)](https://travis-ci.org/jihchi/stdin-line-open)
 [![Coverage Status](https://coveralls.io/repos/github/jihchi/stdin-line-open/badge.svg?branch=master)](https://coveralls.io/github/jihchi/stdin-line-open?branch=master)
